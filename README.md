@@ -27,7 +27,7 @@ This repository has a JSON file that you can use to get a mapping of the all the
 > The JSON Index file contains all the dataset files available in this repository.
 
 You can access the raw JSON index file here, hosted by Github, directly from this public repository:
-https://github.com/Hydraean/Datasets/blob/main/hydraean-datasets.json
+https://raw.githubusercontent.com/Hydraean/Datasets/main/hydraean-datasets.json
 
 you can access this json file via fetch API or an HTTP Client like Axios.
 
