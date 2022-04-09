@@ -10,6 +10,8 @@ You can referrence and download files from this repository. Available both in CS
 
 Install Requirements
 
+> Requires Python 3 to run the generator script.
+
 ```sh
 pip install -r requirements.txt
 ```
@@ -20,9 +22,16 @@ This repository has a JSON file that you can use to get a mapping of the all the
 ./hydraean-datasets.json
 ```
 
+### Access Index file:
+
+> The JSON Index file contains all the dataset files available in this repository.
+
+You can access the raw JSON index file here, hosted by Github, directly from this public repository:
+https://github.com/Hydraean/Datasets/blob/main/hydraean-datasets.json
+
 you can access this json file via fetch API or an HTTP Client like Axios.
 
-### Generating dataset index
+### Generating dataset index file
 
 `Python3` is required to run the python scripts within this repository.
 
@@ -45,4 +54,4 @@ Credits to the sources of the datasets in this repository
 
 - Karagatan Patrol : https://www.karagatanpatrol.org/
 - WDPA - https://www.protectedplanet.net/en/thematic-areas/wdpa?tab=WDPA
-- marineregions - https://www.marineregions.org/eez.php
+- Marine Regions (Exclusive Economic Zones) - https://www.marineregions.org/eez.php
