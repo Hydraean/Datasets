@@ -25,7 +25,7 @@ files_metadata = json.load(open("./file_details.json"))
 
 
 # Generate Index file
-github_raw_baseurl = "https://raw.githubusercontent.com/Hydraean/Datasets/main"        
+github_pages_url = "https://hydraean.github.io/Datasets"        
 
 target_dirs = ["./data-sources", "./output-datasets"]
 
@@ -44,7 +44,7 @@ for dir in target_dirs:
             file_name = file_path.split(sep="/")[-1]    
             file_extension = file_name.split(sep=".")[-1]    
             size = os.path.getsize(file_path)
-            url = f'{github_raw_baseurl}{file_path.replace("./","/")}'
+            url = f'{github_pages_url}{file_path.replace("./","/")}'
 
             file_info = {
                "id": file_name,
@@ -75,7 +75,7 @@ for fx in file_index:
             {
             "title": fx["id"],
             "caption": "",
-            "image": "https://raw.githubusercontent.com/Hydraean/Datasets/main/assets/default.png"
+            "image": "https://hydraean.github.io/Datasets/assets/default.png"
             }
         )
 print(Fore.GREEN+"✅ Assinging Metadata: [DONE]"+Style.RESET_ALL)
